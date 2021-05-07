@@ -1,0 +1,15 @@
+RewriteEngine on
+RewriteRule ^index$ index.php
+AddType application/xhttpd-php .htm .html
+
+
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link js-scroll-trigger  dropdown-toggle" href="#"
+                            data-bs-toggle="dropdown">FR|EN</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/index.html">fr</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/index-us.html">en</a></li>
+                        </ul>
+                    </li>

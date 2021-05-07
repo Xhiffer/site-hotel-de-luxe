@@ -1,0 +1,27 @@
+.counter {
+  width: 100px;
+  font: 800 40px system-ui;
+  overflow: hidden;
+}
+
+[data-inviewport="numbers"].is-inViewport {
+  width: auto;
+  display: flex;
+  animation: countNumber 10s;
+  animation-timing-function: steps(10);
+}
+
+.numbers div {
+  text-align: center;
+  flex: 0 0 100px;
+}
+
+@keyframes countNumber {
+  0% {
+    margin-left: 0px;
+  }
+
+  100% {
+    margin-left: -1000px;
+  }
+}
